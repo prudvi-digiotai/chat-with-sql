@@ -1,0 +1,6 @@
+vyzeai
+openpyxl
+psycopg2
+sqlalchemy
+pandas
+streamlit
