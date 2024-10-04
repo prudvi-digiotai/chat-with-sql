@@ -61,8 +61,9 @@ if st.session_state.api_key:
             host = '{host}'
             database = '{database}'
 
-            tables related to user are {st.session_state.tables}
-            User query: {query}
+            tables prvided by the user are {st.session_state.tables}. Consider these tables for user queries.
+            
+            \nUser query: {query}
             """
         
         response = st.session_state.agent(command)
