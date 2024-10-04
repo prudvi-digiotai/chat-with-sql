@@ -38,4 +38,5 @@ Now it's your turn:
 
 - Execute one step at a time (Thought or Action or Observation or Answer).
 - Entire flow is not required for simple user queries.
+- User can see only the Final Answer.
 """
