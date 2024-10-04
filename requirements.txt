@@ -1,6 +1,6 @@
 vyzeai==0.0.26
 openpyxl
-psycopg2
+psycopg2-binary
 sqlalchemy
 pandas
 streamlit
