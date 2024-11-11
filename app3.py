@@ -133,4 +133,4 @@ if st.session_state.api_key:
                     st.markdown(message["content"])
 
 
-st.write(st.session_state.llm.chat_memory.get_memory())
+# st.write(st.session_state.llm.chat_memory.get_memory())
