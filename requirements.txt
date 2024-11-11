@@ -6,6 +6,5 @@ sqlalchemy
 pandas
 streamlit
 wyge
-statsmodel
 matplotlib
 statsmodels
