@@ -8,3 +8,4 @@ streamlit
 wyge
 matplotlib
 statsmodels
+scikit-learn
