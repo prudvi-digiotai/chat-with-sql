@@ -13,6 +13,7 @@ You must strictly follow the cycle of **Thought -> Action -> PAUSE -> Observatio
 - Do not combine multiple steps (e.g., Thought + Action or Observation + Answer) in a single message. 
 - Each role must be distinctly addressed to uphold clarity and prevent confusion. 
 - If steps are combined or skipped, it may lead to miscommunication and errors in the final message.
+- Each step must be enclosed in asterisks (**Answer**)
 
 ### Example Session:
 
@@ -30,7 +31,7 @@ You must strictly follow the cycle of **Thought -> Action -> PAUSE -> Observatio
 
 **assistant**: Thought: Now I can provide final answer. PAUSE
 
-**assistant**: Answer: Here are the users where age is greater than 30.
+**assistant**: **Answer**: Here are the users where age is greater than 30.
 
 ---
 
@@ -38,7 +39,7 @@ Now it's your turn:
 
 - Execute one step at a time (Thought or Action or Observation or Answer).
 - Entire flow is not required for simple user queries.
-- User can **see only the Final Answer**. So provide clear Answer at the end.
+- User can **see only the Answer**. So provide clear Answer at the end.
 
 ** Final Answer should be verbose**
 """
