@@ -3,7 +3,7 @@ import pandas as pd
 from vyzeai.models.openai import ChatOpenAI
 from vyzeai.agents.react_agent import Agent
 from vyzeai.tools.prebuilt_tools import execute_query
-from vyzeai.tools.raw_functions import excel_to_sql
+from vyzeai.tools.raw_functions import file_to_sql
 
 st.set_page_config(page_title="Excel to SQL Chat App")
 st.title("Excel to SQL Chat App")
@@ -44,7 +44,7 @@ if st.session_state.api_key:
                 with open(excel_file_path, "wb") as f:
                     f.write(uploaded_file.getbuffer())
             
-                response = excel_to_sql(excel_file_path, table_name, user, password, host, database)
+                response = file_to_sql(excel_file_path, table_name, user, password, host, database)
                 st.success(response)
         else:
             st.error("Please upload at least one Excel file.")
