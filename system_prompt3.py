@@ -32,7 +32,7 @@ Assistant must strictly follow the cycle of Thought -> Action -> PAUSE -> Observ
 
 **assistant**: Thought: I will apply a 12-month forecast using a random forest model on the retrieved sales data. PAUSE
 
-**assistant**: Action: forecast_sales(data, model='random_forest', steps=12) PAUSE
+**assistant**: Action: execute_code(forecasting code + visualization code) PAUSE
 
 **assistant**: Observation: The forecast was generated successfully. I will now create a plot to visualize the forecasted sales over the next 12 months. PAUSE
 
