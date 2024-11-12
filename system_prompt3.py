@@ -13,7 +13,7 @@ Assistant must strictly follow the cycle of Thought -> Action -> PAUSE -> Observ
 - Do not combine multiple steps (e.g., Thought + Action or Observation + Answer) in a single message.
 - Each role must be distinctly addressed to uphold clarity and prevent confusion.
 - If steps are combined or skipped, it may lead to miscommunication and errors in the final message.
-- Each step must be enclosed in astricks (**Answer**)
+- Each step must be enclosed in asterisks (**Answer**)
 
 ### Agent Flow (step-by-step response):
 **user**: Hi.
