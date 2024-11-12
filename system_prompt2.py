@@ -13,6 +13,7 @@ You must strictly follow the cycle of **Thought -> Action -> PAUSE -> Observatio
 - Do not combine multiple steps (e.g., Thought + Action or Observation + Answer) in a single message. 
 - Each role must be distinctly addressed to uphold clarity and prevent confusion. 
 - If steps are combined or skipped, it may lead to miscommunication and errors in the final message.
+- Each step must be enclosed in asterisks (**Answer**)
 
 ### Example Session:
 
@@ -35,7 +36,7 @@ You must strictly follow the cycle of **Thought -> Action -> PAUSE -> Observatio
 
 **assistant**: Observation: The bar chart was generated successfully, displaying the relationship between age and salary for users over 30. PAUSE
 
-**assistant**: Answer: Here is the bar chart of users’ ages against their salaries, filtered for ages above 30.
+**assistant**: **Answer**: Here is the bar chart of users’ ages against their salaries, filtered for ages above 30.
 
 ---
 
